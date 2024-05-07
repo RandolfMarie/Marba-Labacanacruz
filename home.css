@@ -306,4 +306,65 @@ p{
     .footer p {
       margin: 10px auto;
     }
+       @media only screen and (max-width: 360px) {
+    .navbar {
+        padding: 10px;
+    }
+    .nav-links li {
+        margin-bottom: 5px;
+    }
+    .header-content {
+        padding: 20px;
+    }
+    .bestProd .col,
+    .events .col,
+    .tours .col {
+        margin: 0;
+    }
+    .footer {
+        padding: 20px;
+    }
+    body {
+        font-size: 14px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 20px; 
+    }
+    p {
+        font-size: 12px;
+    }
+    .bestProd .row .col img{
+      width: 80px;
+      height: 80px;
+      justify-content: center;
+    }
+    .bestProd .row .col p{
+      font-size: 8px;
+      justify-content: center;
+      align-items: center;
+    }
+    .bestProd .row{
+      display: block;
+    }
+    .bestProd button a{ 
+     width: 20px;
+     height: 10px;
+     font-size: 12px;
+    }
+    .bestProd button{
+      margin-top: 170px;
+    }
+    .tours .row{
+      display: block;
+    }
+    .tours .row a{
+      margin-bottom: 40px;
+    }
+    .events .row{
+      display: block;
+    }
+    .events button{
+      margin-top: 190px;
+    }
+}
   }
